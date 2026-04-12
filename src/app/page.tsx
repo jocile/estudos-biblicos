@@ -1,66 +1,48 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { getStudies } from '@/lib/markdown';
+import StudyCard from './components/StudyCard';
+import './page.css';
 
-export default function Home() {
+export default async function Home() {
+  const studies = await getStudies();
+
+  // Agrupar estudos por categoria
+  const groupedStudies = studies.reduce((acc, study) => {
+    const category = study.metadata.category || 'Geral';
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(study);
+    return acc;
+  }, {} as Record<string, typeof studies>);
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="container">
+      <header className="page-header">
+        <h1>Biblioteca de Estudos</h1>
+        <p>Explore nossa coleção de estudos bíblicos em markdown</p>
+      </header>
+
+      {Object.keys(groupedStudies).length === 0 ? (
+        <div className="no-content">
+          <p>Nenhum estudo disponível no momento.</p>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      ) : (
+        Object.entries(groupedStudies).map(([category, categoryStudies]) => (
+          <section key={category} className="category-section">
+            <h2 className="category-title">{category}</h2>
+            <div className="cards-grid">
+              {categoryStudies.map(study => (
+                <StudyCard
+                  key={study.slug}
+                  metadata={study.metadata}
+                  href={`/estudo/${study.slug}`}
+                />
+              ))}
+            </div>
+          </section>
+        ))
+      )}
+    </main>
   );
 }
+
