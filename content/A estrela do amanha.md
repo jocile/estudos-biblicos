@@ -1,11 +1,10 @@
 ---
 title: A estrela do amanhã
-dg-metatags:
-  description: Nesta visão, Jesus está prometendo à igreja que ela será uma luz para o mundo e guiará os outros em seu caminho.
-dg-publish: true
-dg-note-icon: 2
+description: Nesta visão, Jesus está prometendo à igreja que ela será uma luz para o mundo e guiará os outros em seu caminho.
+tags:
+  - Apocalipse
+  - Escatologia
 ---
-#Apocalipse #Escatologia
 
 ## A estrela do amanhã
 

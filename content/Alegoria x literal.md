@@ -1,18 +1,16 @@
 ---
 title: Alegoria x literal
-dg-metatags:
-  description: A interpretação alegórica busca um significado simbólico ou espiritual por trás do texto literal
+description: A interpretação alegórica busca um significado simbólico ou espiritual por trás do texto literal
 tags:
   - Escatologia
   - Hermeneutica
-dg-publish: true
 ---
 
 ## Interpretação Alegórica vs. Literal na Escatologia
 
 A interpretação da escatologia, o estudo dos eventos finais, é um tópico complexo que envolve diferentes abordagens hermenêuticas. As duas principais abordagens são a **interpretação alegórica** e a **interpretação literal**.
 
-### **Interpretação Alegórica**:
+### **Interpretação Alegórica**
 
 - **Definição**: A interpretação alegórica busca um significado simbólico ou espiritual por trás do texto literal, muitas vezes negando ou desconsiderando o significado histórico. O intérprete procura significados secundários e mais profundos, vendo as palavras e eventos como alegorias para verdades espirituais.
 
@@ -30,7 +28,7 @@ A interpretação da escatologia, o estudo dos eventos finais, é um tópico com
 
 >[!quote] O primeiro grande perigo do método alegórico é que ele não interpreta as Escrituras. Terry afirma: ... será imediatamente percebido que seu hábito é desprezar o significado comum das palavras e dar asas a todo tipo de especulação fantasiosa. Ele não extrai o sentido legítimo da linguagem de um autor, mas insere nele todo tipo de extravagância ou fantasia que um intérprete possa desejar. Como sistema, portanto, ele se coloca além de todos os princípios e leis bem definidos. (Terry, op. cit., p. 224.)
 
-### **Interpretação Literal**:
+### **Interpretação Literal**
 
 - **Definição**: A interpretação literal, também conhecida como histórico-gramatical, busca o significado original do texto, considerando o contexto histórico, gramatical e literário. O intérprete procura entender as palavras em seu sentido usual e cotidiano, considerando as figuras de linguagem e os símbolos dentro de seu contexto.
 
@@ -39,7 +37,9 @@ A interpretação da escatologia, o estudo dos eventos finais, é um tópico com
 - **Exemplo**: Um exemplo de interpretação literal é a interpretação das profecias do Antigo Testamento sobre o reino davídico como promessas de um reino literal e terreno governado por Cristo. Os defensores dessa interpretação argumentam que a linguagem da aliança davídica aponta para um cumprimento literal e histórico, e não meramente espiritual.
 - **Vantagens**: A interpretação literal preza pela objetividade, buscando o significado original do texto e limitando a influência dos preconceitos do intérprete. Esse método se baseia em critérios linguísticos e históricos para determinar o significado das palavras e passagens, proporcionando maior segurança e precisão na interpretação.
 
->[!quote] Baseia a interpretação em fatos. Procura estabelecer-se sobre dados objetivos — gramática, lógica, etimologia, história, geografia, arqueologia, [Teologia](Teologia.md) [...] Exerce sobre a interpretação um controle semelhante ao que a experiência exerce sobre o método científico [...] a justificação é o controle das interpretações. Qualquer coisa que não se conforme aos cânones do método literal-cultural-crítico deve ser rejeitada ou vista com suspeita. Além disso, esse método oferece a única fiscalização fidedigna para a constante ameaça de aplicar uma interpretação de duplo sentido às Escrituras [...] 
+>[!quote] Baseia a interpretação em fatos. Procura estabelecer-se sobre dados objetivos — gramática, lógica, etimologia, história, geografia, arqueologia, [Teologia](Teologia.md) [...] Exerce sobre a interpretação um controle semelhante ao que a experiência exerce sobre o método científico [...] a justificação é o controle das interpretações. Qualquer coisa que não se conforme aos cânones do método literal-cultural-crítico deve ser rejeitada ou vista com suspeita. Além disso, esse método oferece a única fiscalização fidedigna para a constante ameaça de aplicar uma interpretação de duplo sentido às Escrituras [...]
+
+---
 
 >[!quote] Tem obtido o maior sucesso na exposição da Palavra de Deus. A exegese não começou a sério até a igreja já ter mais de um milênio e meio de idade. Com o literalismo de Lutero e de Calvino, a luz da Escritura literalmente se acendeu [...] Esse é o aclamado método da alta tradição escolástica do protestantismo conservador. É o método de Bruce, Lightfoot, Zahn, A. T. Robertson, Ellicott, Machen, Cremer, Terry, Farrar, Lange, Green, Oehler, Schaff, Sampey, Wilson, Moule, Perowne, Henderson Broadus, Stuart — para citar apenas alguns exegetas típicos. (Ramm, op. cit, p. 62-3) . ([Manual de Escatologia por Pentecost](Manual%20de%20Escatologia%20por%20Pentecost.md) J. Dwight Pentecost).
 
@@ -47,18 +47,20 @@ A interpretação da escatologia, o estudo dos eventos finais, é um tópico com
 
 >[!quote] Então, para entender completamente a linguagem figurada das Escrituras, é requisito, em primeiro lugar, procurar saber o que realmente é figurado, para não considerar literal o que é figurado, o que faziam muitas vezes os discípulos do nosso Senhor e os judeus, e para não perverter o significado literal com uma interpretação figurada; e, em segundo lugar, quando apurarmos o que realmente é figurado, interpretar isso corretamente e apresentar seu sentido verdadeiro. (Horne, op. cit, i, 356.)
 
+---
+
 >[!quote] Disse Jesus em João 6:48-56:
->Eu sou o pão da vida. 
->  Vossos pais comeram o maná no deserto e morreram. 
-> Este é o pão que desce do céu, para que o que dele comer não morra. 
-> Eu sou o pão vivo que desceu do céu; se alguém comer desse pão, viverá para sempre; e o pão que eu der é a minha carne, que eu darei pela vida do mundo. 
-> Disputavam, pois, os judeus entre si, dizendo: Como nos pode dar este a sua carne a comer? 
-> Jesus, pois, lhes disse: Na verdade, na verdade vos digo que, se não comerdes a carne do Filho do Homem e não beberdes o seu sangue, não tereis vida em vós mesmos. 
-> Quem come a minha carne e bebe o meu sangue tem a vida eterna, e eu o ressuscitarei no último Dia. 
-> Porque a minha carne verdadeiramente é comida, e o meu sangue verdadeiramente é bebida. 
+>Eu sou o pão da vida.
+> Vossos pais comeram o maná no deserto e morreram.
+> Este é o pão que desce do céu, para que o que dele comer não morra.
+> Eu sou o pão vivo que desceu do céu; se alguém comer desse pão, viverá para sempre; e o pão que eu der é a minha carne, que eu darei pela vida do mundo.
+> Disputavam, pois, os judeus entre si, dizendo: Como nos pode dar este a sua carne a comer?
+> Jesus, pois, lhes disse: Na verdade, na verdade vos digo que, se não comerdes a carne do Filho do Homem e não beberdes o seu sangue, não tereis vida em vós mesmos.
+> Quem come a minha carne e bebe o meu sangue tem a vida eterna, e eu o ressuscitarei no último Dia.
+> Porque a minha carne verdadeiramente é comida, e o meu sangue verdadeiramente é bebida.
 > Quem come a minha carne e bebe o meu sangue permanece em mim, e eu, nele.
 
-### **Comparação**:
+### **Comparação**
 
 - **Ponto central**: O ponto central da divergência entre as duas interpretações reside na forma como cada uma lida com a linguagem figurada e simbólica presente nas Escrituras. A interpretação alegórica busca significados ocultos e espirituais por trás da linguagem figurada, enquanto a literal procura entender o significado literal que a linguagem figurada pretende transmitir.
 - **Uso de exemplos**: Ambas as interpretações utilizam exemplos bíblicos para sustentar suas posições. Os alegoristas citam passagens como o livro de Cantares de Salomão para defender a busca por significados espirituais, enquanto os literalistas apontam para as profecias sobre o reino davídico como evidência de um cumprimento literal.

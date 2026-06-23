@@ -1,11 +1,11 @@
 ---
-dg-metatags:
-  description: doutrina que afirma a existência de Deus como três pessoas
-dg-publish: true
+title: A tri unidade de Deus
+description: doutrina que afirma a existência de Deus como três pessoas
+tags:
+  - Teologia
+  - Trindade
+  - Deus
 ---
-#Teologia #Trindade #Deus
-
-# A tri unidade de Deus
 
 ## Introdução
 

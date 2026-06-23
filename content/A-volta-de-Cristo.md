@@ -1,14 +1,12 @@
 ---
 title: A volta de Cristo
-dg-metatags:
-  description: É chegada a hora em que Cristo ocupa a Sua devida posição, sendo glorificado acima dos principados e potestades, e sobre todo o nome que se nomeia
+description: É chegada a hora em que Cristo ocupa a Sua devida posição, sendo glorificado acima dos principados e potestades, e sobre todo o nome que se nomeia
 tags:
   - Escatologia
   - Cristologia
-dg-publish: true
 ---
 
-# A Volta de Cristo
+## A Volta de Cristo
 
 A "volta de Cristo" é um conceito fundamental na escatologia cristã, marcando o ponto culminante da história e a concretização do plano divino. Vamos explorar esse tema de diferentes ângulos, elucidando sua importância e os eventos que o circundam.
 
@@ -30,7 +28,7 @@ A proliferação de falsos líderes religiosos **realça a necessidade do discer
 > Surge aqui uma heresia que o Cristo ressuscitado diz que lhe é odiosa. Elogia os efésios porque eles também a aborrecem. Pode parecer estranho que se atribua um sentimento tão negativo ao Cristo ressuscitado. Mas devemos lembrar duas coisas:\
 > Em primeiro lugar, se amamos a alguém com amor apaixonado e intensamente, odiaremos, ao mesmo tempo, qualquer coisa que ameace arruinar sua alma e corpo.\
 > Em segundo lugar, devemos lembrar que sempre se deve odiar o pecado, mas amar o pecador. A santa ira de Deus acende-se ardente contra o pecado, mas o amor de Deus pelo pecador nunca esfria nem esgota. Apocalipse (William Barclay)
-> 
+>
 > > [!abstract]- Apo 2:1-7 Escreve ao anjo da igreja que está em Éfeso:
 > > Isto diz aquele que tem na sua destra as sete estrelas, que anda no meio dos sete castiçais de ouro:\
 > > Eu sei as tuas obras, e o teu trabalho, e a tua paciência, e que não podes sofrer os maus; e puseste à prova os que dizem ser apóstolos e o não são e tu os achaste mentirosos;\
@@ -48,18 +46,21 @@ Notemos o **arrebatamento da igreja como um evento distinto da volta de Cristo**
 
 > [!note]- PRÉ-TRIBULACIONISMO\
 > Este posicionamento afirma que Cristo virá para os seus santos, depois Ele virá com os seus santos.
+>
 > - O primeiro estágio da vinda de Cristo é chamado de arrebatamento;
-> - o segundo é chamado de revelação.\
+> - o segundo é chamado de revelação.
 > O posicionamento mais antigo acreditava e aceitava a questão da “iminência”; todavia a crítica maior contra essa posição concentrava-se mais no aspecto da ira de Deus e se a igreja será chamada a experimentar parte dela ou toda ela durante a tribulação.
-> 
+>
 > O [Manual de Escatologia por Pentecost](Manual%20de%20Escatologia%20por%20Pentecost.md) de J.Dwigth Pentecoste, pg. 217, apresenta uma base essencial dessa posição “O arrebatamento Pré-tribulacionista descansa essencialmente na premissa maior – o método literal de interpretação das escrituras como complemento necessário a isso.\
-> Os pré-tribulacionistas acreditam na interpretação dispensacionista da palavra de Deus. A igreja e Israel são dois grupos distintos para os quais Deus tem um plano divino.\
-> A igreja é um Mistério não-revelado no Antigo Testamento. Essa era de mistério presente encerra o plano de Deus para com Israel por sua rejeição ao Messias na sua primeira vinda.\
-> Esse plano de Mistério deve ser completado antes que Deus possa retomar seu plano com Israel e completá-lo. Tais considerações surgem do método literal de interpretação”. LIVRO DE ESCATOLOGIA TEOLOGICA
+> Os pré-tribulacionistas acreditam na interpretação dispensacionista da palavra de Deus. A igreja e Israel são dois grupos distintos para os quais Deus tem um plano divino.
+> A igreja é um Mistério não-revelado no Antigo Testamento. Essa era de mistério presente encerra o plano de Deus para com Israel por sua rejeição ao Messias na sua primeira vinda.
+> Esse plano de Mistério deve ser completado antes que Deus possa retomar seu plano com Israel e completá-lo. Tais considerações surgem do método literal de interpretação”. LIVRO DE ESCATOLOGIA TEOLOGICA  
 
-> [!info]- Argumentos dos proponentes deste posicionamento:\
+---
+
+> [!info]- Argumentos dos proponentes deste posicionamento:
 > (Jhon F. Walvoord, J.D. Pentemcoste, Jhon Feinberg, Hermam Coyt, Charles Ryrie, Rene Pache, Henry C.Thiessen, Leon Wood, Hal Lindsay, Alva McClain, Jhon A. Sproul e Richard Mayhue) apresentam os seguintes argumentos:
-> 
+>
 > > - [x] A bíblia diz que os cristãos (igreja) estão isentos da ira divina (1Ts.10). Essa isenção não significa que a igreja não experimenta provações, perseguições e sofrimentos.,
 > > - [x] Os crentes também estão isentos do tempo da ira registrados em Ap.10. Isto é apoiado pela maneira com que a preposição grega “ek” é usada nesta passagem.
 > > - [x] Todas as posições de arrebatamento tribulacionista prevêem um reino Milenial. A posição pré-tribulação requer que crentes vivos e não glorificados entrem no Reino, para assim repovoarem (Zc. 12.10-13; Rm. 11.26).
@@ -91,7 +92,7 @@ Em meio a essas discussões sobre a ordem dos eventos, as fontes enfatizam a **i
 A fidelidade, a vigilância e a perseverança na fé são destacadas como **elementos essenciais da vida cristã**, especialmente à luz da iminente volta de Cristo. A mensagem do Apocalipse serve como um **chamado à ação e à santidade**, convidando a todos a se prepararem para o encontro com o Cordeiro vitorioso.
 
 > [!summary] Este é o pano de fundo do Apocalipse.
-> 
+>
 > > Em todo o Império os súditos de Roma deviam chamar Senhor e Deus a Domiciano. A alternativa era morrer. Não havia escapatória possível.\
 > > O que podiam fazer os cristãos? Que esperança tinham?\
 > > Não havia entre eles muitos que fossem sábios ou poderosos. Contra eles se levantou o poderio de Roma, que nenhum povo ou nação tinha podido resistir. Enfrentava-os uma opção absoluta: César ou Cristo.\

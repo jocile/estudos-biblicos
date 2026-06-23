@@ -1,13 +1,11 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-topics:
+title: A Trindade
+tags:
   - Trindade
   - Heresias
-dg-metatags:
-  description: como conciliar a fé inabalável em um único Deus (monoteísmo), herdada do judaísmo, com a confissão de que Jesus Cristo é divino e que o Espírito Santo também é Deus
+  - Teologia
+description: como conciliar a fé inabalável em um único Deus (monoteísmo), herdada do judaísmo, com a confissão de que Jesus Cristo é divino e que o Espírito Santo também é Deus
 ---
-#Teologia #Trindade #Deus
 
 ## Resumo Conceitual: A Doutrina da Trindade
 
@@ -36,7 +34,6 @@ Para evitar os extremos de dividir a divindade (triteísmo) ou de anular as dist
 - Eles passaram a usar _hipóstase_ para se referir às três **"Pessoas"** ou **"existências distintas"** dentro da única essência divina. Essa distinção linguística permitiu à igreja articular sua fé com uma clareza sem precedentes, resultando na fórmula clássica que resume a doutrina trinitária:
 
 #### 1.3. Tabela Comparativa de Termos
-
 
 | Termo                  | Significado na Doutrina da Trindade                                                                                                     |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,7 +78,6 @@ O subordinacionismo é a heresia que **enfatiza a distinção das Pessoas à cus
 O erro fundamental do subordinacionismo é que, ao rebaixar o status do Filho, ele compromete a própria base do evangelho, pois somente Deus pode salvar, e um salvador que é menos que Deus "não poderia nos salvar".
 
 #### 3.3. Tabela de Contraste: Ortodoxia vs. Heresias
-
 
 |                              | **Doutrina Ortodoxa**                           | **Modalismo**                                   | **Subordinacionismo**                                    |
 | ---------------------------- | ----------------------------------------------- | ----------------------------------------------- | -------------------------------------------------------- |

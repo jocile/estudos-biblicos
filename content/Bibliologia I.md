@@ -1,11 +1,10 @@
 ---
 title: Bibliologia I
-dg-note-icon: 2
-dg-publish: true
-dg-metatags:
-  description: iniciando o estudo da Bíblia
+description: iniciando o estudo da Bíblia
+tags:
+ - Teologia
+ - Teologia/bibliologia
 ---
-#Teologia #Teologia/bibliologia
 
 ## Curso de Teologia - Módulo 1
 
@@ -51,7 +50,7 @@ O importante é que todo esse estudo deve ser feito em primeiro lugar para nossa
 **Por quê abandonada?** Essa teoria não considerava a diversidade de estilos literários e contextos históricos presentes nos textos bíblicos. Ela era simplista demais para explicar como livros complexos foram formados ao longo de séculos, com contribuições de autores diversos.\
 **Influência:** Não menciona explicitamente grupos ou indivíduos influentes no abandono.
 
-#### 2. Teoria da Aprovação Posterior 
+#### 2. Teoria da Aprovação Posterior
 
 **Descrição:** Propunha que os escritores bíblicos escreveram livremente e depois foram "inspirados" pelo Espírito Santo para transmitir a mensagem correta, corrigindo eventuais erros ou desvios.\
 **Por quê abandonada?** Essa teoria tentava conciliar a humanidade dos autores com uma inspiração divina finalizada. No entanto, ela foi abandonada porque não explicava adequadamente o processo de formação do texto nem dava conta da maneira como os textos foram desenvolvidos organicamente.\
@@ -67,6 +66,7 @@ O importante é que todo esse estudo deve ser feito em primeiro lugar para nossa
 
 **Descrição:** O processo pelo qual livros foram reconhecidos pela comunidade cristã como sagrados, inspirados por Deus e normativos.\
 **Características:**
+
 - Os autores eram considerados homens de Deus (e.g., Moisés em Ex 17:14).
 - O conteúdo era a mensagem recebida de Deus para orientar os descendentes (e.g., Mateus, Marcos, Lucas e João no Novo Testamento).
 - A inspiração divina foi confirmada por meio do reconhecimento público dos escritos como palavras vivas.

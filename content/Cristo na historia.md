@@ -1,13 +1,10 @@
 ---
 title: Cristo na história
-dg-metatags:
-  description: Jesus produziu uma das alterações mais profundas já ocorridas na civilização
+description: Jesus produziu uma das alterações mais profundas já ocorridas na civilização
 tags:
   - Teologia
   - Cristologia
-dg-publish: true
 ---
-# Cristo na história
 
 ## Introdução
 

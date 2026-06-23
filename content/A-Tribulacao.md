@@ -1,12 +1,10 @@
 ---
 title: A grande Tribulação
-dg-metatags:
-  description: seus propósitos e diferentes perspectivas sobre o momento em que ela ocorrerá em relação ao arrebatamento da igreja.
+description: seus propósitos e diferentes perspectivas sobre o momento em que ela ocorrerá em relação ao arrebatamento da igreja.
 tags:
   - Escatologia
   - arrebatamento
   - tribulacao
-dg-publish: true
 ---
 ## Discussão sobre a grande Tribulação
 
@@ -16,10 +14,10 @@ O conceito de Tribulação é central na escatologia cristã, e sua interpretaç
 
 - A Tribulação é um período de intensa angústia, sofrimento e juízo divino sobre a Terra.
 - Esse período tem como propósitos:
-    - **Preparar Israel para o encontro com Deus:** a Tribulação levará Israel a clamar pelo Messias.
-    - **Punir aqueles que se marcarem com a marca da besta.**
-    - **Desestabilizar o governo e a sede da Tríade satânica:** o Anticristo, o Falso Profeta e Satanás.
-    - **Levar os homens a tomar decisões espirituais:** decidindo por Cristo ou pelo Anticristo.
+  - **Preparar Israel para o encontro com Deus:** a Tribulação levará Israel a clamar pelo Messias.
+  - **Punir aqueles que se marcarem com a marca da besta.**
+  - **Desestabilizar o governo e a sede da Tríade satânica:** o Anticristo, o Falso Profeta e Satanás.
+  - **Levar os homens a tomar decisões espirituais:** decidindo por Cristo ou pelo Anticristo.
 
 ### **Duração e Divisão:**
 

@@ -1,10 +1,11 @@
 ---
-dg-metatags:
-  description: mostra como o Evangelho foi difundido e consolidado após a morte, ressurreição e ascensão de Jesus.
+title: Atos dos Apóstolos na História
+description: mostra como o Evangelho foi difundido e consolidado após a morte, ressurreição e ascensão de Jesus.
 tags:
-dg-publish: true
+    - Teologia
+    - Historia
+    - Atos
 ---
-#Teologia #Atos
 
 ## Atos dos Apóstolos: Uma Análise Sintética dos Aspectos Históricos e Teológicos
 

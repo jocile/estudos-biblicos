@@ -1,14 +1,11 @@
 ---
 class: teologia
 title: A existência de Deus
-dg-note-icon: 2
-dg-publish: true
-cssclasses:
-topics:
-dg-metatags:
-  description: Argumentos para a existência de Deus
+description: Argumentos para a existência de Deus
+tags:
+  - Teologia
+  - Teologia/bibliologia 
 ---
-#Teologia #Teologia/bibliologia 
 
 ## A existência de Deus
 

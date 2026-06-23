@@ -1,11 +1,9 @@
 ---
 title: A segunda vinda de Cristo
-dg-metatags:
-  description: A doutrina do Segundo Advento de Cristo, conhecida também como Parousia, é central na fé cristã
+description: A doutrina do Segundo Advento de Cristo, conhecida também como Parousia, é central na fé cristã
 tags:
   - Escatologia
   - Cristologia
-dg-publish: true
 ---
 ## O Segundo Advento de Cristo: Uma Reflexão Teológica e Histórica
 

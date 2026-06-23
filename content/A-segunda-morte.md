@@ -1,13 +1,11 @@
 ---
-title: A-segunda-morte
-dg-metatags:
-  description: como um evento distinto da morte física, representando uma **separação eterna de Deus** e um estado de condenação.
+title: A segunda morte
+description: como um evento distinto da morte física, representando uma separação eterna de Deus e um estado de condenação.
 tags:
   - Escatologia
   - Apocalipse
-dg-publish: true
 ---
-# A-segunda-morte
+
 ## A segunda morte
 
 A Bíblia se refere à "segunda morte" como um evento distinto da morte física, representando uma **separação eterna de Deus** e um estado de condenação.

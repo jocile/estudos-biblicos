@@ -1,16 +1,10 @@
 ---
 title: A divindade de Cristo
-dg-note-icon: 1
-dg-publish: true
-cssclasses:
-  - row-alt
-  - row-hover
-dg-metatags:
-  description: No Evangelho segundo João é descrita a divindade de Cristo
+description: No Evangelho segundo João é descrita a divindade de Cristo
+tags:
+  - Cristologia
 ---
-#Cristologia 
-
-# Milagres divinos de Cristo em João
+## Milagres divinos de Cristo em João
 
 | **Milagre**                                                   | **Significado**                                               | **Referencia bíblica** |
 | ------------------------------------------------------------- | ------------------------------------------------------------- | ---------------------- |

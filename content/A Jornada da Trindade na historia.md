@@ -1,13 +1,11 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-topics:
+title: A Jornada da Trindade
+tags:
   - Trindade
   - Heresias
-dg-metatags:
-  description: A igreja tenta reconciliar sua experiência do Deus triúno com a fé monoteísta do Antigo Testamento, levando a séculos de intenso debate teológico.
+  - Teologia
+description: A igreja tenta reconciliar sua experiência do Deus triúno com a fé monoteísta do Antigo Testamento, levando a séculos de intenso debate teológico.
 ---
-#Teologia #Trindade #Deus
 
 ## A Jornada da Trindade: Como a Igreja Chegou a Entender o Deus Triúno
 
@@ -56,11 +54,11 @@ Nos séculos II e III, os primeiros teólogos cristãos, conhecidos como os "Pai
 
 A igreja primitiva lutou para manter um equilíbrio delicado, evitando dois erros principais que simplificavam demais o mistério de Deus.
 
-|   |   |   |
-|---|---|---|
-|Heresia|Crença Principal|O Problema Teológico|
-|**Modalismo (Sabelianismo)**|Ensinava que Pai, Filho e Espírito Santo não são pessoas distintas, mas apenas "modos", "máscaras" ou papéis sucessivos que o Deus único assume na história. Deus foi o Pai na criação, tornou-se o Filho na redenção e agora atua como o Espírito Santo na igreja.|Se as distinções não são reais e eternas, a revelação de Deus na história não corresponde a quem Ele realmente é. O problema fundamental é que **não nos resta nenhum conhecimento verdadeiro de Deus, porque o que ele diz de si mesmo na Bíblia pode não refletir o que ele é de fato.**|
-|**Subordinacionismo**|Para preservar a unidade e a supremacia do Pai, ensinava que o Filho e o Espírito Santo eram inferiores a Ele. Eram vistos como seres divinos de "segunda classe" ou emanações menores do Pai, não compartilhando plenamente da mesma essência divina.|Se Jesus Cristo não é plenamente Deus, Ele não pode nos salvar. A salvação, segundo a Bíblia, é uma obra que somente Deus pode realizar. Um salvador que é "menos Deus" não pode nos unir ao Deus verdadeiro.|
+|                              |                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Heresia                      | Crença Principal                                                                                                                                                                                                                                                    | O Problema Teológico                                                                                                                                                                                                                                                                       |
+| **Modalismo (Sabelianismo)** | Ensinava que Pai, Filho e Espírito Santo não são pessoas distintas, mas apenas "modos", "máscaras" ou papéis sucessivos que o Deus único assume na história. Deus foi o Pai na criação, tornou-se o Filho na redenção e agora atua como o Espírito Santo na igreja. | Se as distinções não são reais e eternas, a revelação de Deus na história não corresponde a quem Ele realmente é. O problema fundamental é que **não nos resta nenhum conhecimento verdadeiro de Deus, porque o que ele diz de si mesmo na Bíblia pode não refletir o que ele é de fato.** |
+| **Subordinacionismo**        | Para preservar a unidade e a supremacia do Pai, ensinava que o Filho e o Espírito Santo eram inferiores a Ele. Eram vistos como seres divinos de "segunda classe" ou emanações menores do Pai, não compartilhando plenamente da mesma essência divina.              | Se Jesus Cristo não é plenamente Deus, Ele não pode nos salvar. A salvação, segundo a Bíblia, é uma obra que somente Deus pode realizar. Um salvador que é "menos Deus" não pode nos unir ao Deus verdadeiro.                                                                              |
 
 ### 2.2. Os Primeiros Passos de Ireneu e Tertuliano
 

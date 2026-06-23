@@ -1,9 +1,8 @@
 ---
-dg-metatags:
-  description: O texto explora a estrutura, temas e contexto histórico do Apocalipse
-dg-publish: true
+title: Apocalipse por Barclay
+description: O texto explora a estrutura, temas e contexto histórico do Apocalipse
+tags: [Teologia, livro, Escatologia]
 ---
-#Teologia #livro #Escatologia 
 
 ## Apocalipse por Barclay
 

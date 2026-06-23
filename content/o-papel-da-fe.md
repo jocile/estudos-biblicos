@@ -4,9 +4,9 @@ date: "2026-04-11"
 description: "Uma reflexão sobre como a crença e as obras se entrelaçam segundo os princípios bíblicos."
 ---
 
-# A Essência da Fé
+## A Essência da Fé
 
-A fé é descrita de diversas maneiras nas escrituras. Uma passagem marcante a define como "a certeza daquilo que esperamos e a prova das coisas que não vemos". 
+A fé é descrita de diversas maneiras nas escrituras. Uma passagem marcante a define como "a certeza daquilo que esperamos e a prova das coisas que não vemos".
 
 Entretanto, uma questão profunda sempre surge nos estudos teológicos: qual é o relacionamento entre a **Fé** e a **Ação**?
 
@@ -22,11 +22,11 @@ Muitos autores antigos reforçam que uma não pode estar desconectada da outra. 
 
 ### Exemplo Prático de Aplicação
 
-| Princípio Teórico | Aplicação Prática |
-| :--- | :--- |
-| Generosidade | Contribuir para as necessidades dos aflitos. |
-| Perdão | Restaurar relacionamentos quebrados e reconciliação. |
-| Esperança | Permanecer resiliente diante de adversidades inexplicáveis. |
+| Princípio Teórico | Aplicação Prática                                           |
+| :---------------- | :---------------------------------------------------------- |
+| Generosidade      | Contribuir para as necessidades dos aflitos.                |
+| Perdão            | Restaurar relacionamentos quebrados e reconciliação.        |
+| Esperança         | Permanecer resiliente diante de adversidades inexplicáveis. |
 
 ## Conclusão
 

@@ -1,12 +1,10 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-topics:
-  - História dos Hebreus
-dg-metatags:
-  description: tema central na história do povo hebreu, demonstrando o relacionamento de Deus com a humanidade e Seu plano de salvação
+title: Alianças de Deus com os Hebreus
+description: tema central na história do povo hebreu, demonstrando o relacionamento de Deus com a humanidade e Seu plano de salvação
+tags: [Teologia, Historia, Hebreus, alianças]
 ---
-#Teologia/Historia #Hebreus #alianças
+
+## As alianças
 
 As alianças de Deus são um tema central na história do povo hebreu, demonstrando o relacionamento de Deus com a humanidade e Seu plano de salvação. As fontes fornecidas abordam diversas dessas alianças, desde Noé até a Lei Mosaica e sua interpretação no Novo Testamento.
 
@@ -24,13 +22,13 @@ A história do povo hebreu, descendentes de Sem e depois de Éber, tem um ponto 
 
 - **Contexto**: Deus chamou Abrão para sair de Ur dos caldeus e, posteriormente, de Harã, em direção à terra que Ele mostraria. Abrão tinha 75 anos quando saiu de Harã.
 - **Promessas**: Deus prometeu a Abrão:
-    - Fazer dele uma grande nação.
-    - Abençoá-lo e engrandecer seu nome, e ele seria uma bênção.
-    - Abençoar os que o abençoassem e amaldiçoar os que o amaldiçoassem.
-    - **Nele, seriam benditas todas as famílias da terra**, um projeto divino de alcance universal.
-    - Sua descendência seria numerosa como as estrelas do céu.
-    - Daria a ele e sua descendência a terra de Canaã por herança.
-    - Seu herdeiro viria de suas próprias entranhas, e não seria Eliézer, seu servo.
+  - Fazer dele uma grande nação.
+  - Abençoá-lo e engrandecer seu nome, e ele seria uma bênção.
+  - Abençoar os que o abençoassem e amaldiçoar os que o amaldiçoassem.
+  - **Nele, seriam benditas todas as famílias da terra**, um projeto divino de alcance universal.
+  - Sua descendência seria numerosa como as estrelas do céu.
+  - Daria a ele e sua descendência a terra de Canaã por herança.
+  - Seu herdeiro viria de suas próprias entranhas, e não seria Eliézer, seu servo.
 - **Pacto**: Deus fez um pacto com Abrão em Gênesis 15, confirmando estas promessas.
 - **Obediência e Leis**: É notável que, antes da Lei Mosaica, Abraão já obedecia à voz de Deus, guardava Seus mandamentos, preceitos, estatutos e leis. Isso indica que, embora a lei escrita para o povo viesse por Moisés, Deus já havia dado leis a Abraão para seguir.
 
@@ -50,10 +48,10 @@ A aliança patriarcal continua através de Jacó, filho de Isaque.
 - **Contexto**: Jacó, fugindo de Esaú, parou para descansar em um lugar que mais tarde seria chamado Betel (Casa de Deus). Ali, ele teve um sonho.
 - **Visão**: Jacó sonhou com uma escada posta na terra, cujo topo chegava ao céu, e anjos de Deus subiam e desciam por ela. No topo da escada estava o Senhor (Yahweh).
 - **Promessas (Reafirmação)**: Deus se revelou como o Deus de Abraão e Isaque e confirmou as promessas a Jacó:
-    - Daria a ele e à sua descendência a terra em que estava deitado.
-    - Sua descendência seria como o pó da terra e se estenderia para todos os quatro pontos cardeais (ocidente, oriente, norte e sul).
-    - **Nele e em sua descendência seriam benditas todas as famílias da terra**, reiterando o plano universal de Deus.
-    - Deus estaria com ele, o guardaria por onde quer que fosse, o faria voltar àquela terra e não o deixaria até que cumprisse tudo o que tinha dito.
+  - Daria a ele e à sua descendência a terra em que estava deitado.
+  - Sua descendência seria como o pó da terra e se estenderia para todos os quatro pontos cardeais (ocidente, oriente, norte e sul).
+  - **Nele e em sua descendência seriam benditas todas as famílias da terra**, reiterando o plano universal de Deus.
+  - Deus estaria com ele, o guardaria por onde quer que fosse, o faria voltar àquela terra e não o deixaria até que cumprisse tudo o que tinha dito.
 - **Voto de Jacó**: Após acordar, Jacó, temeroso e reverente, fez um voto a Deus. Ele prometeu que, se Deus estivesse com ele, o guardasse na viagem, lhe desse pão e vestes, e o fizesse voltar em paz à casa de seu pai, então o Senhor seria seu Deus, a pedra seria a Casa de Deus, e ele daria o dízimo de tudo que recebesse.
 - **Fidelidade de Deus e Inconstância de Jacó**: Deus cumpriu Sua parte, enriquecendo Jacó. No entanto, Jacó inicialmente falhou em cumprir sua promessa de reconhecer Yahweh como _seu_ Deus, referindo-se a Ele como "o Deus de meu pai" ou "o Deus de Abraão e Isaque" em diversas ocasiões.
 - **Transformação e Nome**: Somente após um encontro com Deus (não um anjo) no vau de Jaboque, onde Deus o tocou, Jacó foi transformado. Deus fez a promessa de que seu nome "não se chamará mais Jacó, mas Israel". Essa mudança de nome foi efetivamente confirmada por Deus em Betel (onde Jacó ergueu um altar e reconheceu Deus como "o Deus de Israel"), marcando a completa transformação e o cumprimento de sua parte do voto.
