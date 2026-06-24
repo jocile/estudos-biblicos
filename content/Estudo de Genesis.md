@@ -1,10 +1,8 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-dg-metatags:
-  description: "uma crônica divinamente inspirada, redigida para fundamentar a fé e a identidade do povo de Deus diante dos desafios da história. "
+title: Estudo de Gênesis
+description: "uma crônica divinamente inspirada, redigida para fundamentar a fé e a identidade do povo de Deus diante dos desafios da história. "
 ---
-# Interpretando as Narrativas de Gênesis
+## Interpretando as Narrativas de Gênesis
 
 Este compêndio visa equipar o estudante para uma leitura madura e histórico-salvífica do livro das origens. Gênesis não é uma coleção de especulações metafísicas, mas uma crônica divinamente inspirada, redigida para fundamentar a fé e a identidade do povo de Deus diante dos desafios da história.
 
@@ -16,9 +14,8 @@ Ao contrário do que propõem certas correntes críticas, o gênero literário d
 
 A narrativa de Gênesis estabelece o **direito territorial e legal** de Israel sobre Canaã: se Deus é o Criador e dono de toda a terra, Ele tem a prerrogativa soberana de desapossar nações pagãs e entregá-la aos descendentes de Abraão.
 
-|   |   |   |
-|---|---|---|
 |Característica|Relatos Míticos Pagãos|Relato Histórico de Gênesis|
+|---|---|---|
 |**Gênese**|Caos, "monstrous beings" e lutas entre divindades.|Ordem estabelecida pela Palavra de um Deus pessoal.|
 |**Natureza**|Forças da natureza divinizadas (Sol, Rio Nilo).|Natureza como criatura subordinada ao Senhor.|
 |**Gênero**|Lendas absurdas, míticas e poéticas.|Prosa simples, clara e registro de fatos diretos.|
@@ -81,9 +78,8 @@ Devemos distinguir entre a **Teofania** (manifestação física/externa no espa�
 
 A providência é o governo de Deus através de **meios comuns** (leis da física, biologia e decisões humanas). Deus "sequestra" a ordem natural para cumprir Seus decretos eternos sem anular a responsabilidade das criaturas.
 
-|   |   |   |
-|---|---|---|
 |Episódio Bíblico|Ação Humana (Decisões/Falhas)|Resultado Providencial de Deus|
+|---|---|---|
 |**Rebanhos de Jacó**|Jacó usa expertise pastoral e genética (galhos riscados) contra Labão.|Deus utiliza as leis da biologia como causa secundária para enriquecer Jacó.|
 |**Crise de Hagar**|Hagar foge e fica sem recursos no deserto.|Deus provê via meios comuns: **12 litros de água** (o odre) e a abertura dos olhos para um poço.|
 |**A Traição de José**|Os irmãos vendem José por inveja (pecado).|Deus usa a maldade e a burocracia egípcia para exaltar José e salvar Israel.|

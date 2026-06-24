@@ -1,5 +1,4 @@
 ---
-class: teologia
 title: A existência de Deus
 description: Argumentos para a existência de Deus
 tags:

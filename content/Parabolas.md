@@ -8,8 +8,7 @@ dg-metatags:
   description: diagrama de tipos de parábolas
 dg-publish: true
 ---
-# Parábolas
-
+## Parábolas
 
 **Na parábola, a imagem do mundo visível é emprestada e se faz acompanhar de uma verdade do mundo invisível ou espiritual. As parábolas são os Portadores, os canais da doutrina e da verdade espiritual.**
 

@@ -1,15 +1,10 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-aliases:
-  - dispensacionalismo
-topics:
+title: Dispensacionalismo
+description: Tabela comparativa
+tags:
+  - Apocalipse
   - Escatologia
-dg-metatags:
-  description: Tabela comparativa
 ---
-#Apocalipse #Escatologia
-
 ## As dispensações
 
 As dispensações são **períodos de tempo** em que Deus testa a obediência do homem em relação a alguma revelação especial de sua vontade. A palavra "dispensação" deriva do termo grego "oikonimia", que significa "economia" ou "boa ordem na administração de uma casa".
@@ -17,14 +12,14 @@ As dispensações são **períodos de tempo** em que Deus testa a obediência do
 Existem diferentes perspectivas sobre as dispensações, incluindo:
 
 - **Sete [[Dispensacoes|dispensações]]:** Uma visão comum é que existem sete dispensações distintas ao longo da história bíblica. Segundo o Pr. Severino Pedro da Silva, uma dispensação é "um período em que o homem é experimentado em relação à sua obediência a alguma revelação especial da vontade tanto permissiva como diretiva de Deus". Essas dispensações incluem:
-    - Dispensação da Inocência
-    - Dispensação da Consciência
-    - Dispensação do Governo Humano
-    - Dispensação Patriarcal
-    - Dispensação da Lei
-    - Dispensação da Graça
-    - Dispensação do Reino
-    - É importante notar que a última dispensação, a do Reino, é considerada futura.
+  - Dispensação da Inocência
+  - Dispensação da Consciência
+  - Dispensação do Governo Humano
+  - Dispensação Patriarcal
+  - Dispensação da Lei
+  - Dispensação da Graça
+  - Dispensação do Reino
+  - É importante notar que a última dispensação, a do Reino, é considerada futura.
 - **Críticas à visão dispensacionalista:** Alguns estudiosos criticam a ideia de múltiplas dispensações como um conceito antibíblico. Argumentam que a palavra "dispensação" (oikonomia) na Bíblia se refere a mordomia ou administração, e não a um período de teste. Também apontam que as distinções entre as dispensações são arbitrárias e que elas se sobrepõem.
 - **Dispensacionalismo e a relação entre Israel e a Igreja:** O dispensacionalismo clássico defende que Deus tem propósitos distintos para Israel e a Igreja, com diferentes promessas e planos escatológicos. Essa visão sustenta que as profecias feitas a Israel não se aplicam à Igreja, e vice-versa.
 - **Aliança e dispensações:** Há uma conexão entre a ideia de dispensações e alianças. Alguns teólogos distinguem entre diferentes dispensações da aliança, como a aliança da graça sob a administração da lei e sob a administração do evangelho. Essa visão contrasta com o dispensacionalismo moderno, que enfatiza a separação radical entre as dispensações.

@@ -1,10 +1,10 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-dg-metatags:
-  description: é o plural de um vocábulo grego biblion, que significa livro. Portanto, uma tradução literal de “Bíblia” poderia ser Os Livros.
+title: Estrutura Bíblica
+description: é o plural de um vocábulo grego biblion, que significa livro. Portanto, uma tradução literal de “Bíblia” poderia ser Os Livros.
+tags:
+  - Teologia
+  - Teologia/bibliologia
 ---
-#Teologia #Teologia/bibliologia
 
 ## A ESTRUTURA DA BÍBLIA
 
@@ -12,23 +12,23 @@ A palavra Bíblia é o plural de um vocábulo grego, _biblion_, que significa _l
 
 De fato, a Bíblia é uma coleção de 66 livros: 39 do Antigo Testamento e 27 do Novo. As Bíblias publicadas pelas editoras católicas acrescentam mais  7 livros ao conjunto do Antigo Testamento, totalizando, portanto, 73 livros no cômputo geral. Estes 7 livros são conhecidos como _apócrifos_ ou _deuterocanônicos._
 
-Atualmente os livros da Bíblia estão divididos em capítulos e versículos, porém nem sempre foi assim. A divisão em capítulos ocorreu em 1227 e foi efetuada por um professor da Universidade de Paris, Stephen Langton, que mais tarde viria a ser o arcebispo de Cantuária. Em 1551, Robert Stephanus, um impressor parisiense, iniciou a divisão de cada capítulo em versículos, ao fazer uma viagem de Paris a Lion, em lombo de animal.[^1]       Em 1555 concluiu a tarefa. Ao longo, a Bíblia contém 1.189 capítulos e 31.102 versículos. 
+Atualmente os livros da Bíblia estão divididos em capítulos e versículos, porém nem sempre foi assim. A divisão em capítulos ocorreu em 1227 e foi efetuada por um professor da Universidade de Paris, Stephen Langton, que mais tarde viria a ser o arcebispo de Cantuária. Em 1551, Robert Stephanus, um impressor parisiense, iniciou a divisão de cada capítulo em versículos, ao fazer uma viagem de Paris a Lion, em lombo de animal.[^1]       Em 1555 concluiu a tarefa. Ao longo, a Bíblia contém 1.189 capítulos e 31.102 versículos.
 
 Uma divisão didática comumente aceita é a seguinte:
 
  **I** - Antigo Testamento
 
-   - **A** - Lei (ou Torá, ou Pentateuco) 
-   - **B** - Livros Históricos
-   - **C** - Livros Poéticos
-   - **D** - Livros Proféticos       
+- **A** - Lei (ou Torá, ou Pentateuco)
+- **B** - Livros Históricos
+- **C** - Livros Poéticos
+- **D** - Livros Proféticos
 
 **II** - Novo Testamento
 
-   - **A** - Evangelhos
-   - **B** - Livro Histórico ou Biográfico
-   - **C** - Epístolas
-   - **D** - Livro Profético
+- **A** - Evangelhos
+- **B** - Livro Histórico ou Biográfico
+- **C** - Epístolas
+- **D** - Livro Profético
 
 ### Antigo Testamento
 
