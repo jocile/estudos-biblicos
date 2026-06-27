@@ -5,19 +5,19 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  # O ecossistema "npm" engloba npm, yarn e pnpm. 
+  # O Dependabot usará o pnpm automaticamente ao detectar o pnpm-lock.yaml.
+  - package-ecosystem: "npm" 
+    directory: "/" 
     schedule:
       interval: "weekly"
-    versioning-strategy: "increase"
     open-pull-requests-limit: 10
+    versioning-strategy: "increase"
     
-    # Adiciona etiquetas automáticas aos PRs criados pelo Dependabot
     labels:
       - "dependencies"
-      - "javascript"
-
-    # Agrupa dependências para evitar dezenas de PRs isolados
+      - "pnpm" # Etiqueta atualizada para refletir o uso do pnpm
+      
     groups:
       linters-formatters:
         patterns:
@@ -28,3 +28,18 @@ updates:
           - "jest*"
           - "@testing-library*"
           - "cypress*"
+
+  # Atualizações para as suas GitHub Actions (build.yml e deploy.yml)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      
+    labels:
+      - "dependencies"
+      - "actions"
+      
+    groups:
+      actions-updates:
+        patterns:
+          - "*"
