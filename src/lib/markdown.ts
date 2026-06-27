@@ -3,6 +3,19 @@ import { join } from 'path';
 import matter from 'gray-matter';
 import { MarkdownMetadata, MarkdownContent } from './types';
 
+// Normaliza os metadados vindos do gray-matter (garante tags como array, etc.)
+function parseMetadata(data: matter.GrayMatterFile<string>['data']): MarkdownMetadata {
+  if (data.tags && typeof data.tags === 'string') {
+    data.tags = data.tags.split(',').map((tag: string) => tag.trim());
+  }
+  return data as MarkdownMetadata;
+}
+
+// Deriva o slug limpo a partir do nome do arquivo
+function fileToSlug(filename: string): string {
+  return filename.replace(/\.md$/, '').replace(/\s+/g, '-').toLowerCase();
+}
+
 // Função principal para ler todos os markdowns
 export async function getStudies(): Promise<MarkdownContent[]> {
   const contentDir = join(process.cwd(), 'content');
@@ -15,35 +28,19 @@ export async function getStudies(): Promise<MarkdownContent[]> {
     return [];
   }
   
-  const studies: MarkdownContent[] = [];
-  
-  for (const file of files) {
-    if (file.endsWith('.md')) {
+  const studies: MarkdownContent[] = files
+    .filter((file) => file.endsWith('.md'))
+    .map((file) => {
       const filePath = join(contentDir, file);
-      const fileContent = readFileSync(filePath, 'utf-8');
-      
-      // Extrair metadados com gray-matter
-      const { data, content } = matter(fileContent);
-      
-      // Garantir que tags seja um array
-      if (data.tags && typeof data.tags === 'string') {
-        data.tags = data.tags.split(',').map((tag: string) => tag.trim());
-      }
-      
-      // Criar o slug a partir do nome do arquivo
-      const baseSlug = file.replace(/\.md$/, '');
-      const slug = baseSlug.replace(/\s+/g, '-').toLowerCase();
-      
-      studies.push({
-        slug,
-        metadata: data as MarkdownMetadata,
-        content
-      });
-    }
-  }
+      const { data, content } = matter(readFileSync(filePath, 'utf-8'));
+      return {
+        slug: fileToSlug(file),
+        metadata: parseMetadata(data),
+        content,
+      };
+    });
   
-  // Ordenar por data (mais recente primeiro)
-  // Ignora os que não tem data válida
+  // Ordenar por data (mais recente primeiro); sem data vai para o final
   studies.sort((a, b) => {
     const dateA = a.metadata.date ? new Date(a.metadata.date).getTime() : 0;
     const dateB = b.metadata.date ? new Date(b.metadata.date).getTime() : 0;
@@ -53,44 +50,29 @@ export async function getStudies(): Promise<MarkdownContent[]> {
   return studies;
 }
 
+
 // Função para obter um estudo específico por slug
 export async function getStudyBySlug(slug: string): Promise<MarkdownContent | null> {
   const contentDir = join(process.cwd(), 'content');
   let files: string[] = [];
-  
+
   try {
     files = readdirSync(contentDir);
-  } catch (error) {
+  } catch {
     return null;
   }
-  
-  for (const file of files) {
-    if (file.endsWith('.md')) {
-      const filePath = join(contentDir, file);
-      const fileContent = readFileSync(filePath, 'utf-8');
-      
-      const { data, content } = matter(fileContent);
-      
-      // Garantir que tags seja um array
-      if (data.tags && typeof data.tags === 'string') {
-        data.tags = data.tags.split(',').map((tag: string) => tag.trim());
-      }
-      
-      const baseSlug = file.replace(/\.md$/, '');
-      const slugFromFilename = baseSlug.replace(/\s+/g, '-').toLowerCase();
-      
-      if (slugFromFilename === slug) {
-        return {
-          slug: slugFromFilename,
-          metadata: data as MarkdownMetadata,
-          content
-        };
-      }
-    }
-  }
-  
-  return null;
+
+  const file = files.find((f) => f.endsWith('.md') && fileToSlug(f) === slug);
+  if (!file) return null;
+
+  const { data, content } = matter(readFileSync(join(contentDir, file), 'utf-8'));
+  return {
+    slug,
+    metadata: parseMetadata(data),
+    content,
+  };
 }
+
 
 // Função para obter todos os estudos por categoria
 export async function getStudiesByCategory(category?: string): Promise<MarkdownContent[]> {
@@ -133,4 +115,10 @@ export async function getTags(): Promise<string[]> {
   });
   
   return Array.from(tags).sort();
+}
+
+// Função para obter todos os slugs dos estudos (para generateStaticParams)
+export async function getSlugPaths(): Promise<string[]> {
+  const studies = await getStudies();
+  return studies.map(s => s.slug);
 }

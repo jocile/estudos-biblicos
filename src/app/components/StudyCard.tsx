@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 import { MarkdownMetadata } from '@/lib/types';
 
@@ -22,7 +20,7 @@ export default function StudyCard({ metadata, href }: StudyCardProps) {
         {metadata.tags && metadata.tags.length > 0 && (
           <div className="tags-container">
             {metadata.tags.map((tag, index) => (
-              <span key={index} className="tag">#{tag}</span>
+              <span key={tag} className="tag">#{tag}</span>
             ))}
           </div>
         )}

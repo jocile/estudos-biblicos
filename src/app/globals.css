@@ -134,3 +134,87 @@ a {
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+
+/* ===== Skeleton Loading ===== */
+@keyframes shimmer {
+  0%   { background-position: -600px 0; }
+  100% { background-position: 600px 0; }
+}
+
+.skeleton {
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    90deg,
+    var(--bg-secondary) 25%,
+    rgba(255,255,255,0.06) 50%,
+    var(--bg-secondary) 75%
+  );
+  background-size: 600px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+.skeleton-title   { height: 2.5rem; width: 40%; margin-bottom: 1rem; }
+.skeleton-subtitle{ height: 1rem;   width: 60%; margin-bottom: 2rem; }
+.skeleton-h1      { height: 2rem;   width: 70%; margin-bottom: 1rem; }
+.skeleton-h3      { height: 1.25rem;width: 80%; margin-bottom: 0.75rem; }
+.skeleton-p       { height: 0.875rem;width: 100%;margin-bottom: 0.5rem; }
+.skeleton-p--short{ width: 55%; }
+.skeleton-badge   { height: 1.5rem; width: 5rem;  border-radius: 999px; margin-bottom: 0.75rem; }
+.skeleton-date    { height: 0.875rem;width: 7rem; margin-bottom: 0.5rem; }
+.skeleton-back-link { height: 1rem; width: 12rem; margin-bottom: 1.5rem; }
+
+.skeleton-card {
+  pointer-events: none;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  background: var(--bg-card);
+}
+
+/* ===== Error Page ===== */
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.error-icon    { font-size: 3rem; }
+.error-title   { font-size: 1.75rem; font-weight: 700; color: var(--text-primary); }
+.error-message { color: var(--text-secondary); max-width: 40ch; }
+
+.error-digest {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.error-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.error-retry-btn {
+  background: var(--accent-primary);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.error-retry-btn:hover { opacity: 0.85; }

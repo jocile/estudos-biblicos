@@ -13,16 +13,25 @@ export async function generateMetadata({ params }: PageProps) {
   const study = await getStudyBySlug(resolvedParams.slug);
 
   if (!study) {
-    return {
-      title: 'Estudo Não Encontrado',
-    };
+    return { title: 'Estudo Não Encontrado' };
   }
 
+  const { title, description, image, author, category } = study.metadata;
+
   return {
-    title: `${study.metadata.title} | Estudos Bíblicos`,
-    description: study.metadata.description,
+    title: `${title} | Estudos Bíblicos`,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      ...(image && { images: [{ url: image, alt: title }] }),
+      ...(author && { authors: [author] }),
+      ...(category && { section: category }),
+    },
   };
 }
+
 
 export async function generateStaticParams() {
   const studies = await getStudies();
