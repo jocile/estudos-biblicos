@@ -4,6 +4,19 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
+
+# Registros privados que o Dependabot precisa acessar.
+# O token é lido de um secret configurado no repositório
+# (Settings → Secrets → Dependabot → "GITHUB_PACKAGES_TOKEN").
+# Use um PAT com escopo read:packages se os pacotes forem de outra org/repo;
+# caso contrário, o GITHUB_TOKEN padrão já é suficiente.
+registries:
+  github-packages:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: ${{ secrets.GITRUB_PACKAGES_TOKEN }}
+    replaces-base: false  # false = usa npmjs.org para pacotes públicos + github para privados
+
 updates:
   # O ecossistema "npm" engloba npm, yarn e pnpm. 
   # O Dependabot usará o pnpm automaticamente ao detectar o pnpm-lock.yaml.
@@ -13,6 +26,8 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 10
     versioning-strategy: "increase"
+    registries:
+      - github-packages
     
     labels:
       - "dependencies"
