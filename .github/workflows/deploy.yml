@@ -78,3 +78,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          timeout: 600000      # aguarda até 10 min
+          error_count: 10      # tolera até 10 erros de status antes de desistir
+          reporting_interval: 5000
