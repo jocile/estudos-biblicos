@@ -2,9 +2,9 @@ name: Check for any build error
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -27,10 +27,23 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build project
         run: pnpm run --if-present build
+
+      # ─── NOVO ────────────────────────────────────────────────────────────────
+      - name: Verificar saída do build
+        run: |
+          if [ -d out ]; then
+            echo "✅ Pasta ./out encontrada"
+            ls -la out
+          else
+            echo "❌ ERRO: ./out não foi criada"
+            echo "→ Verifique next.config.ts: output deve ser 'export'"
+            exit 1
+          fi
+      # ─────────────────────────────────────────────────────────────────────────
