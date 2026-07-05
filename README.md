@@ -1,22 +1,21 @@
 # 📚 Estudos Bíblicos — Web App de Leitura Premium
 
-Uma aplicação web construída com **Next.js 16+** e **React 19**, projetada para leitura focada, rápida e otimizada. O sistema processa arquivos Markdown estáticos do diretório `/content/`, extraíndo metadados estruturados (título, tags, categoria, imagem) que permitem uma experiência de navegação sem tempo real — tudo construído em **Static Site Generation (SSG)** para máximo desempenho e SEO.
+Uma aplicação web construída com **Next.js 16+** e **React 19**, projetada para leitura focada, rápida e otimizada. O sistema processa arquivos Markdown estáticos do diretório `/content/`, extraindo metadados estruturados (título, tags, categoria, imagem) que permitem uma experiência de navegação sem tempo real — tudo construído em **Static Site Generation (SSG)** para máximo desempenho e SEO.
 
-> ✅ Sem banco de dados tradicional  
-> ✅ 100% Markdown nativo via `gray-matter` + `remark-gfm`  
-> ✅ Renderização segura com rejeição adequada a tags como string simples  
-> ✅ Design customizado Vanilla CSS global (sem frameworks utilitários)  
+> ✅ Sem banco de dados tradicional
+> ✅ 100% Markdown nativo via `gray-matter` + `remark-gfm`
+> ✅ Renderização segura com rejeição adequada a tags como string simples
+> ✅ Design customizado Vanilla CSS global (sem frameworks utilitários)
+> ✅ MenuBar global com busca client-side via `Ctrl+K` / `⌘K`
 
 ## 🚀 Começando
 
 Execute o servidor de desenvolvimento:
 
 ```bash
-npm run dev
-# ou
 pnpm dev
-#ou
-yarn dev
+# ou
+npm run dev
 ```
 
 Acesse `http://localhost:3000` no seu navegador para ver a página inicial da biblioteca.
@@ -28,28 +27,28 @@ Diretório **src/** contém as camadas arquiteturais principais:
 ### Camada de Roteamento
 
 - **app/** → App Router Next.js (configurações globais, home e estudos únicos)
-- `components/` → UI Components (`StudyCard`, `MarkdownRenderer`, filtros em desenvolvimento)
-- `globals.css/page.css` → Design System base + Tokens escuros com Glassmorphism
+- `components/` → UI Components (`StudyCard`, `MarkdownRenderer`, `MenuBar`, `SearchButton`)
+- `globals.css` / `page.css` → Design System base + Tokens escuros com Glassmorphism
 
 ### Camada de Domínio / Regras (Lib)
 
-- **lib/markdown.ts** -> Controller do sistema: lê `/content/`, extrai metadados e conteúdo, garante integridade dos dados (`tags: string[]`)
+- **lib/markdown.ts** → Controller do sistema: lê `/content/`, extrai metadados e conteúdo, garante integridade dos dados (`tags: string[]`)
 - **lib/types.ts** → Contratos estáticos para tipagem total
 
 ### Persistência de Dados
 
-```text
-/content/<nome>.md    # Folders MD (Frontmatter) + body texto renderizado por parser do Markdown
+```markdown
+/content/<nome>.md    # Arquivos MD com Frontmatter YAML + corpo em Markdown
 
 Formato YAML Frontmatter obrigatório:
 ---
 title: "Título"
-date: "2026-04-15"  ## Ordenação automática
+date: "2026-04-15"        # Ordenação automática (mais recente primeiro)
 description: "Resumo para SEO e preview"
 category?: 'Teologia'
 tags?: ['teologia', 'criptismo']
 image?: '/caminho/para/imagem.jpg'
-author: ? "Nome do Autor"
+author?: "Nome do Autor"
 ---
 
 Conteúdo Markdown rico (tables, lists) renderizado via react-markdown.
@@ -57,67 +56,81 @@ Conteúdo Markdown rico (tables, lists) renderizado via react-markdown.
 
 ## 🌟 Funcionalidades Principais
 
-| Feature                                  | Status     | Detalle                                        |
-| ---------------------------------------- | ---------- | ---------------------------------------------- |
-| Biblioteca de Estudos                    | ✅ Completo| Agrupado por Categoria e Tag única             |
-| Estudo Único (Slug Dinâmico)             | ✅ Completo| `estudo/[slug]` via SSG + generateStaticParams |
-| Filtro por Categoria                     | ⚠️ Em Dev  | Lógico completo, UI em andamento               |
-| Filtro por Tag                           | 🏗 Backlog  | API pronta                                     |
-| Renderização Rica markdown (tables, GFM) | ✅ Completo| `remark-gfm` + react-markdrop                  |
-| Lazy Loading de Imagens                  | ⚠️ Backlog | Não bloqueado ainda                            |
+| Feature | Status | Detalhe |
+| --- | --- | --- |
+| Biblioteca de Estudos | ✅ Completo | Agrupado por categoria |
+| Estudo Único (Slug Dinâmico) | ✅ Completo | `estudo/[slug]` via SSG + `generateStaticParams` |
+| MenuBar global | ✅ Completo | Sticky, glassmorphism, responsiva |
+| Busca `Ctrl+K` / `⌘K` | ✅ Completo | Modal client-side, filtro por título/categoria/tag, navegação por teclado |
+| Renderização Rica Markdown (GFM) | ✅ Completo | `remark-gfm` + `react-markdown` |
+| Filtro por Categoria | ⚠️ Em Dev | Lógica completa, UI em andamento |
+| Filtro por Tag | 🏗 Backlog | API pronta |
+| Lazy Loading de Imagens | 🏗 Backlog | Não bloqueado |
+
+## 🔍 Busca com `Ctrl+K` / `⌘K`
+
+A barra de busca está integrada na `MenuBar` e funciona como um command palette:
+
+- **Trigger visual** — botão no estilo de input com ícone de lupa e badge de atalho de teclado
+- **Atalho global** — `Ctrl+K` (Windows/Linux) ou `⌘K` (Mac) em qualquer página
+- **Modal animado** — overlay com blur, slide-down suave
+- **Busca em tempo real** — filtra por título, descrição, categoria e tags simultaneamente
+- **Navegação por teclado** — `↑↓` para navegar, `↵` para abrir, `Esc` para fechar
+- **Sem requisições em runtime** — índice gerado no servidor em build-time e embutido no HTML
+
+### Arquitetura de dados da busca
+
+```bash
+getStudies()  (Node.js, build-time)
+  └─→ MenuBar  (async Server Component)
+        └─→ studyIndex prop
+              └─→ SearchButton  (Client Component, zero fetch em runtime)
+```
+
+Essa arquitetura é totalmente compatível com `output: 'export'` (GitHub Pages).
 
 ## 🎨 Design System & UI/UX
 
 - **Modo Escuro** (Dark Mode): Tons `#0f0f13`, `#1a1a24`
-- Core Visuals: Glassmorphism containers (`rgba(255, 255, 255, 0.05)`) + Borders suaves
-- **Paleta Neon**: Acentos em Roxo (`#7c3aed`) e Rosa-magenta (`#ec4899`)
+- **Glassmorphism**: containers `rgba(255, 255, 255, 0.05)` + bordas suaves
+- **Paleta de acentos**: Roxo (`#7c3aed`) e Rosa-magenta (`#ec4899`)
+- **Animações**: shimmer de skeleton, slide-down no modal de busca, hover micro-interactions
 
 ## 🔧 Tech Stack
 
-| Categoria       | Technology                                | Propósito                                   |
-| --------------- | ----------------------------------------- | ------------------------------------------- |
-| Framework Front | ✅ Next.js 16+ (App Router)               | Roteamento SSG + Server Functions           |
-| UI              | ✅ React 19                               | Componentes Funcionais                      |
-| CSS             | Vanilla Global Customized (`globals.css`) | Design System Sem Tailwind                  |
-| Data Parsing    | ✅ `gray-matter`                          | Extrair Frontmatter/Markdown de arquivos MD |
-| Markdown GFM    | ✅ `remark-gfm`                           | Tabelas + List Tasks + Auto-Link            |
-| Typescript      | ✅ TS5 with strict mode                   | Typing safety                               |
+| Categoria | Technology | Propósito |
+| --- | --- | --- |
+| Framework | Next.js 16+ (App Router) | Roteamento SSG + Server Components |
+| UI | React 19 + react-dom 19.2.7 | Componentes Funcionais |
+| CSS | Vanilla CSS Modules + globals.css | Design System sem Tailwind |
+| Data Parsing | `gray-matter` | Extrair Frontmatter de arquivos MD |
+| Markdown | `remark-gfm` + `react-markdown` | Tabelas, listas, auto-link |
+| Typescript | TS5 strict mode | Tipagem total |
 
-## 🧪 Teste Manual (Manual Testing)
+## 🧪 Teste Manual
 
-1. Verifique o servidor rodando:
+1. Suba o servidor de desenvolvimento:
 
    ```bash
-   npm run dev # ou pnpm/dev, etc
+   pnpm dev
    ```
 
-2. Navegue até a página inicial `http://localhost:3000` — você verá uma **Grid de Cards** agrupados por categorias.
-3. Clique em um card para acessar o estudo detalhado (`/estudo/[slug]`)
+2. Acesse `http://localhost:3000` — você verá a **grid de cards** agrupados por categoria.
+3. Clique em um card para acessar o estudo detalhado (`/estudo/[slug]`).
+4. Pressione `Ctrl+K` (ou `⌘K` no Mac) para abrir a busca e teste a navegação por teclado.
 
-## 📈 Performance e Produtividade (Milestones Atual)
+## 📈 Performance
 
 - ✅ SSG gerado via Next.js na hora do build — zero runtime overhead
-✅ Parsing robusto com fallbacks de dados e sanitização automática
-- ⚠️ Lazy loading não implementado ainda (Fase 6 - SEO/Performance em andamento)  
-🏗 API aberta para OpenGraph, Schema.org + sitemap automático
-
-## 👥 Contribuidores & Créditos
-
-Arquivos `.md`:
-
-```markdown
----
-date: "2026-04-15"           # Ordenação automática (Novo primeiro)
-description: ? texto SEO...   # preview do card
-tags?: string[]                 # Se vazio ou inválido, converte para Array<string>
-category?: 'Teologia'          # Agrupamento automático no Frontmatter
-```
+- ✅ Busca client-side com índice embutido no HTML — sem requisição extra
+- ✅ Parsing robusto com fallbacks de dados e sanitização automática de tags
+- ⚠️ Lazy loading de imagens ainda não implementado (Fase futura)
 
 ## 📖 Sobre o Projeto
 
-Esta aplicação foi desenvolvida com foco em: **performance + SEO nítido**, sem bancos de dados (apenas arquivos locais), e design **clean/zen**. Ideal para conteúdo estático que não muda frequentemente — como estudos bíblicos, artigos científicos ou documentação técnica.
+Esta aplicação foi desenvolvida com foco em **performance + SEO**, sem banco de dados (apenas arquivos locais Markdown), e design **clean/dark**. Ideal para conteúdo estático que não muda frequentemente — como estudos bíblicos, artigos científicos ou documentação técnica.
 
 ---
-**License**: MIT License  
-© 2026 Estudos Bíblicos Web App  
-Built with ❤️ by [Nome do Autor] (substitua conforme necessário)
+
+**License**: MIT License
+© 2026 Estudos Bíblicos Web App
