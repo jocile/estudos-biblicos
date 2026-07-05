@@ -2,11 +2,11 @@
 
 Uma aplicação web construída com **Next.js 16+** e **React 19**, projetada para leitura focada, rápida e otimizada. O sistema processa arquivos Markdown estáticos do diretório `/content/`, extraindo metadados estruturados (título, tags, categoria, imagem) que permitem uma experiência de navegação sem tempo real — tudo construído em **Static Site Generation (SSG)** para máximo desempenho e SEO.
 
-> ✅ Sem banco de dados tradicional
-> ✅ 100% Markdown nativo via `gray-matter` + `remark-gfm`
-> ✅ Renderização segura com rejeição adequada a tags como string simples
-> ✅ Design customizado Vanilla CSS global (sem frameworks utilitários)
-> ✅ MenuBar global com busca client-side via `Ctrl+K` / `⌘K`
+- > ✅ Sem banco de dados tradicional
+- > ✅ 100% Markdown nativo via `gray-matter` + `remark-gfm`
+- > ✅ Renderização segura com rejeição adequada a tags como string simples
+- > ✅ Design customizado Vanilla CSS global (sem frameworks utilitários)
+- > ✅ MenuBar global com busca client-side via `Ctrl+K` / `⌘K`
 
 ## 🚀 Começando
 

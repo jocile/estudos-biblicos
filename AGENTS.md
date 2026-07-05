@@ -31,12 +31,12 @@ Avoid mutating build artifacts in `.next/`; they are regenerated on each build/r
 
 ## Repo Layout Highlights
 
-```text/content/<name>.md     → Markdown study files with frontmatter (slug, category, text)
+```text
+/content/<name>.md     → Markdown study files with frontmatter (slug, category, text)
 src/app/*.tsx          → App Router pages and layout
 src/components/*        → Reusable React components
 lib/markdown.ts         → Reads /content/, returns array of Study objects + metadata extraction helper
-
-```yaml
+```
 
 ## Notes for Agents Starting Here
 
