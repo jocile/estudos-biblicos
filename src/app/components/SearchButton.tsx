@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import styles from './SearchButton.module.css';
 
-interface StudyIndex {
+export interface StudyIndex {
   slug: string;
   title: string;
   description: string;
@@ -12,34 +12,29 @@ interface StudyIndex {
   tags: string[];
 }
 
-export default function SearchButton() {
+interface Props {
+  studyIndex: StudyIndex[];
+}
+
+export default function SearchButton({ studyIndex }: Props) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<StudyIndex[]>([]);
-  const [index, setIndex] = useState<StudyIndex[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
-  // Carrega o índice ao abrir o modal pela primeira vez
-  useEffect(() => {
-    if (open && index.length === 0) {
-      fetch('/api/search')
-        .then((r) => r.json())
-        .then((data: StudyIndex[]) => setIndex(data))
-        .catch(console.error);
-    }
-  }, [open, index.length]);
+  // Índice vem pronto via props — sem fetch em runtime
 
   // Filtra resultados conforme query
   useEffect(() => {
     if (!query.trim()) {
-      setResults(index.slice(0, 6));
+      setResults(studyIndex.slice(0, 6));
       setActiveIndex(0);
       return;
     }
     const q = query.toLowerCase();
-    const filtered = index.filter(
+    const filtered = studyIndex.filter(
       (s) =>
         s.title.toLowerCase().includes(q) ||
         s.description.toLowerCase().includes(q) ||
@@ -48,7 +43,7 @@ export default function SearchButton() {
     );
     setResults(filtered.slice(0, 8));
     setActiveIndex(0);
-  }, [query, index]);
+  }, [query, studyIndex]);
 
   // Foca o input ao abrir
   useEffect(() => {
