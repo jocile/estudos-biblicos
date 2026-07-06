@@ -104,14 +104,14 @@ export default async function EstudoPage({ params }) {
 ## 📝 Resumo Técnico
 
 ```mermaid
-graph LR
-    A[Build SSG] --> B[next.config.ts detecta generateStaticParams()]
+graph TD
+    A[Build SSG] --> B[next.config.ts detecta generateStaticParams]
     B --> C{Chama hook}
-    C --> D[markdown.ts: getSlugPaths()]
+    C --> D[markdown.ts: getSlugPaths]
     D --> E[Lê /content/*.md via fs.readFileSync]
-    E --> F[matter.parse() extrai metadados]
+    E --> F[matter.parse extrai metadados]
     F --> G[Retorna array de slugs]
-    G --> H[Cria rotas dinâmicas /estudo/[slug]]
+    G --> H[Cria rotas dinâmicas /estudo/slug]
 ```
 
 ---
