@@ -16,16 +16,16 @@ importers:
         version: 4.0.3
       next:
         specifier: ^16.2.10
-        version: 16.2.10(@babel/core@7.29.7)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: 16.2.10(@babel/core@7.29.7)(react-dom@19.2.7(react@19.3.0))(react@19.3.0)
       react:
-        specifier: 19.2.7
-        version: 19.2.7
+        specifier: 19.3.0
+        version: 19.3.0
       react-dom:
         specifier: 19.2.7
-        version: 19.2.7(react@19.2.7)
+        version: 19.2.7(react@19.3.0)
       react-markdown:
         specifier: ^10.1.0
-        version: 10.1.0(@types/react@19.2.17)(react@19.2.7)
+        version: 10.1.0(@types/react@19.3.0)(react@19.3.0)
       remark-gfm:
         specifier: ^4.0.1
         version: 4.0.1
@@ -35,10 +35,10 @@ importers:
         version: 26.1.0
       '@types/react':
         specifier: ^19
-        version: 19.2.17
+        version: 19.3.0
       '@types/react-dom':
         specifier: '19'
-        version: 19.2.3(@types/react@19.2.17)
+        version: 19.2.3(@types/react@19.3.0)
       eslint:
         specifier: ^10
         version: 10.6.0
@@ -473,8 +473,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.17':
-    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -1741,8 +1741,8 @@ packages:
       '@types/react': '>=18'
       react: '>=18'
 
-  react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.10:
@@ -2444,11 +2444,11 @@ snapshots:
     dependencies:
       undici-types: 8.3.0
 
-  '@types/react-dom@19.2.3(@types/react@19.2.17)':
+  '@types/react-dom@19.2.3(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 19.2.17
+      '@types/react': 19.3.0
 
-  '@types/react@19.2.17':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
@@ -2982,7 +2982,7 @@ snapshots:
       '@next/eslint-plugin-next': 16.2.10
       eslint: 10.6.0
       eslint-import-resolver-node: 0.3.10
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0))(eslint@10.6.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.6.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.6.0)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@10.6.0)
       eslint-plugin-react: 7.37.5(eslint@10.6.0)
@@ -3005,7 +3005,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0))(eslint@10.6.0):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0)(eslint@10.6.0):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.3
@@ -3020,14 +3020,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.14.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0))(eslint@10.6.0))(eslint@10.6.0):
+  eslint-module-utils@2.14.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@10.6.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.62.1(eslint@10.6.0)(typescript@6.0.3)
       eslint: 10.6.0
       eslint-import-resolver-node: 0.3.10
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0))(eslint@10.6.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.6.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3042,7 +3042,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 10.6.0
       eslint-import-resolver-node: 0.3.10
-      eslint-module-utils: 2.14.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint@10.6.0))(eslint@10.6.0))(eslint@10.6.0)
+      eslint-module-utils: 2.14.0(@typescript-eslint/parser@8.62.1(eslint@10.6.0)(typescript@6.0.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@10.6.0)
       hasown: 2.0.4
       is-core-module: 2.16.2
       is-glob: 4.0.3
@@ -3946,16 +3946,16 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@16.2.10(@babel/core@7.29.7)(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  next@16.2.10(@babel/core@7.29.7)(react-dom@19.2.7(react@19.3.0))(react@19.3.0):
     dependencies:
       '@next/env': 16.2.10
       '@swc/helpers': 0.5.15
       baseline-browser-mapping: 2.10.41
       caniuse-lite: 1.0.30001800
       postcss: 8.5.16
-      react: 19.2.7
-      react-dom: 19.2.7(react@19.2.7)
-      styled-jsx: 5.1.6(@babel/core@7.29.7)(react@19.2.7)
+      react: 19.3.0
+      react-dom: 19.2.7(react@19.3.0)
+      styled-jsx: 5.1.6(@babel/core@7.29.7)(react@19.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.10
       '@next/swc-darwin-x64': 16.2.10
@@ -4088,23 +4088,23 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.2.7(react@19.2.7):
+  react-dom@19.2.7(react@19.3.0):
     dependencies:
-      react: 19.2.7
+      react: 19.3.0
       scheduler: 0.27.0
 
   react-is@16.13.1: {}
 
-  react-markdown@10.1.0(@types/react@19.2.17)(react@19.2.7):
+  react-markdown@10.1.0(@types/react@19.3.0)(react@19.3.0):
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      '@types/react': 19.2.17
+      '@types/react': 19.3.0
       devlop: 1.1.0
       hast-util-to-jsx-runtime: 2.3.6
       html-url-attributes: 3.0.1
       mdast-util-to-hast: 13.2.1
-      react: 19.2.7
+      react: 19.3.0
       remark-parse: 11.0.0
       remark-rehype: 11.1.2
       unified: 11.0.5
@@ -4113,7 +4113,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react@19.2.7: {}
+  react@19.3.0: {}
 
   reflect.getprototypeof@1.0.10:
     dependencies:
@@ -4385,10 +4385,10 @@ snapshots:
     dependencies:
       inline-style-parser: 0.2.7
 
-  styled-jsx@5.1.6(@babel/core@7.29.7)(react@19.2.7):
+  styled-jsx@5.1.6(@babel/core@7.29.7)(react@19.3.0):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.7
+      react: 19.3.0
     optionalDependencies:
       '@babel/core': 7.29.7
 
